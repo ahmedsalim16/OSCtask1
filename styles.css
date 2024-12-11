@@ -1,0 +1,258 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+  }
+  .navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  header {
+    /* background: #e8f5fe;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    background-image: url("images/blue_bg.png");
+    background-size: cover;
+  }
+  
+  header ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  header ul li:hover{
+    border-bottom: 2px #c555a3 solid;
+    
+
+  }
+  
+  header a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  header .login-btn {
+    background: #fff;
+    color: #000;
+    border: none;
+    width: 80px;
+    height: 25px;
+    border-radius: 10px;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+  }
+  
+    .hero-content{
+        padding-left: 20px;
+        width: 670px;
+        opacity: .7;
+        position: relative;
+        left: 100px;
+        top: 70px;
+    }
+  .hero-content h2 {
+    font-size: 2.5rem;
+  }
+  
+  .hero-content .highlight {
+    color: #c555a3;
+  }
+  
+  
+  .hero-image #img1{
+    position: relative;
+    left: 400px;
+    top: 200px;
+  }
+  .hero-image #img2{
+    position: relative;
+    right: 30px;
+    top: 77px;
+
+  }
+  .hero-image #img3{
+    position: relative;
+    left: -310px;
+    top: 300px;
+  }
+  .hero-image #img4{
+    position: relative;
+    left: -170px;
+    top: 125px;
+  }
+
+  
+  .features {
+        display: flex;
+        padding: 2rem;
+        background: #fff;
+        flex-direction: column;
+        align-items: center;
+  }
+  
+  .feature {
+    text-align: center;
+    max-width: 300px;
+  }
+  #feature1{
+   
+    position: relative;
+    right: 500px;
+    top: 100px;
+
+  }
+  #feature2{
+    position: relative;
+    bottom: 360px;
+    left: 40px;
+  }
+  #feature3{
+    position: relative;
+    bottom: 35px;
+    left: 383px;
+  }
+  .bus{
+    width: 80vw;
+    height: 373px;
+    position: relative;
+    bottom: 147px;
+    left: 149px;
+
+  }
+ 
+  .ff{
+    position: relative;
+    bottom: 400px;
+    left: -132px;
+    width: 67vw;
+    display: flex ;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .write{
+    position: relative;
+    bottom: 165px;
+    left: 53px;
+    color: #fff;
+
+  }
+  
+  .feature img {
+    width: 100px;
+    margin-bottom: 1rem;
+  }
+  .cont2{
+    display: flex;
+    position: relative;
+    bottom: 320px;
+    
+  }
+  .g1{
+    text-align: center;
+    max-width: 300px;
+    position: relative;
+    top: -65px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .w{
+    position: relative;
+    top: -45px;
+  }
+
+  
+  .footer {
+    
+    color: #000;
+    text-align: center;
+   
+  }
+  #foot{
+    width: 102vw;
+    height: 650px;
+    position: relative;
+    /* top: -260px; */
+
+  }
+  .footer-content{
+    background-image: url("images/Group\ 1131.png");
+    background-size: cover;
+    position: relative;
+    /* top: 0px; */
+    height: 530px;
+  }
+  
+  .app-buttons {
+    position: relative;
+    top: -80px;
+    left: 100px;
+    display: flex;
+    margin-left: 45px;
+   
+  }
+  #customer{
+    position: relative;
+    left: 240px;
+    top: 130px;
+  }
+  .store{
+    background-color: #fff;
+    color: #000;
+    width: 105px;
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+    opacity: .8;
+  }
+  .media{
+    display: flex;
+    position: relative;
+    left: 146px;
+    top: -62px;
+    font-size: 30px;
+  }
+  .media i{
+    padding-left: 10px;
+  }
+  .media a:hover{
+    scale: .6;
+  }
+  #nav2{
+    position: relative;
+    top: -60px;
+    left: 114px;
+  }
+  #nav2 ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  #nav2 ul li:hover{
+    border-bottom: 2px #c555a3 solid;
+    
+
+  }
+  #nav2 a {
+    text-decoration: none;
+    color: #fff;
+  }
+
